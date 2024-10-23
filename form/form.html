@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h2>
+          
+        </h2>
+    </header>
+    <style>
+       header{
+        text-align: center;
+       }
+        
+        P{
+            font-size: larger;
+            text-align: center;
+        }
+        BODY{
+            background-image: linear-gradient(to right, gainsboro, #95B5EF);
+            background-color: lightgray;
+            margin: auto;
+            width: 400px
+        }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        color: black;
+        border-radius: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+    </style>
+    <P><header>
+        <h2>
+            PREENCHA O FORMULÁRIO ABAIXO PARA NOS CONHECERMOS MELHOR:
+        </h2>
+    </header>
+    </P>
+    <br>
+    <form action="/submit" method="post" onsubmit="returnfalse;">
+        <input type="text" id="nome=" name="gender">
+        <label for="nome">NOME</label><br><BR><BR>
+        <input type="text" id="E-MAIL" name="gender">
+        <label for="E-MAIL">E-MAIL</label><BR><BR><BR>
+        <input type="date" id="DATA" name="gender">
+        <label for="DATA">DATA DE NASCIMENTO</label><BR><BR><BR>
+        <input type="number" id="numero" name="gender">
+        <label for="numero">TELEFONE</label><BR><BR><BR> 
+       <div id="enviar"><input type="submit" id="enviar" name="gender">
+        <label for="enviar"></label></form></div>
+    </form>
+</body>
+</html>
